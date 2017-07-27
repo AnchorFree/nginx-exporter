@@ -20,8 +20,6 @@ Help on flags:
 ## Using Docker
 
 ```
-docker pull fish/nginx-exporter
-
-docker run -d -p 9113:9113 fish/nginx-exporter \
+docker run -d -p 9113:9113 anchorfree/nginx-exporter \
     -nginx.scrape_uri=http://172.17.42.1/nginx_status
 ```
